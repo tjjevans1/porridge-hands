@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import '~node.normalize.scss/normalize';
+@import 'scss/variables';
+
+body {
+  min-height: 100vh;
+  background-color: $colour-blue;
+  position: relative;
+}
